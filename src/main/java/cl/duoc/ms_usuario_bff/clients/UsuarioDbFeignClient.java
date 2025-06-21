@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import cl.duoc.ms_usuario_bff.model.dto.UsuarioDTO;
 
-@FeignClient(name = "ms-usuario-bs", url = "http://localhost:8082/")
+@FeignClient(name = "ms-usuario-bs", url = "http://localhost:8082")
 public interface UsuarioDbFeignClient {
 
     @GetMapping("/usuarios")
