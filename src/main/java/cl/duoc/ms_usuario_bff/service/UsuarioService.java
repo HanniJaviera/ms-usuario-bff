@@ -33,4 +33,5 @@ public class UsuarioService {
     public String deleteUsuario(Long id) {
         return usuarioDbFeignClient.deleteUsuario(id);
     }
+
 }
